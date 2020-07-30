@@ -1,0 +1,33 @@
+body , html {
+    height: 100%;
+}
+.board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.board {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+}
+.row {
+    display: flex;
+    flex: 1;
+}
+.box {
+    flex: 1;
+}
+.right-bottom {
+    border-right-style: solid;
+    border-bottom-style: solid;
+}
+.bottom {
+    border-bottom-style: solid;
+}
+.right {
+    border-right-style: solid;
+}
