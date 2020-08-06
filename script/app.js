@@ -12,6 +12,22 @@ const gameBoard = (function () {
 
     }
     const validBox = function (row, col) {
-        
+
     }
 })
+const gameMaster = (function () {
+    const startGame = function (nameOne, nameTwo) {
+
+    }
+})
+const player = function () {
+    // private attributes
+    let name = '';
+    let score = 0;
+    const changeName = function (newName) {
+        name = newName;
+    }
+    const resetScore = function () {
+        score = 0;
+    } 
+}
