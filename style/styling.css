@@ -1,6 +1,12 @@
 body , html {
     height: 100%;
 }
+header {
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
 .board-container {
     display: flex;
     justify-content: center;
