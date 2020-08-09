@@ -26,6 +26,10 @@ header {
 }
 .box {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
 }
 .right-bottom {
     border-right-style: solid;
